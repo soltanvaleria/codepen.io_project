@@ -1,0 +1,198 @@
+
+body{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+/* Navigation bar */
+.nav-bar{
+  height: 30px;
+  background-color: black;
+  color: #cbcbcb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.nav-bar >.left-column{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.nav-bar >.left-column>.logo-image svg{
+  height: 100%;
+  width: 190px;
+}
+.nav-bar>.left-column>.link_explore {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 30px;
+  padding-top: 10px;
+  grid-gap: 0px 0px;
+}
+.nav-bar>.left-column>.link_explore>.explore {
+  padding-left: 20px;
+  padding-bottom: 5px;
+  color:#cea135;
+}
+.link-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.link-wrapper>.link{
+  width: 80px;
+  text-align: center;
+
+}
+.link-wrapper>.link a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.down{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-top: 24px;
+
+}
+.down>.spark{
+  padding-right: 5px;
+}
+.nav-bar >.right-column{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.create-down{
+  display: flex;
+  align-items: center;
+  background-color: #383838;
+  padding: 12px;
+  color: white;
+  width: 80px;
+  border-radius: 4px;
+    justify-content: center;
+}
+.create{
+  padding-right: 5px;
+}
+
+.icon{
+  padding-top: 2px;
+}
+
+.nav-bar>.right-column>.create-down>.icon{
+padding-left: 5px;
+color:green;
+}
+.search i{
+font-size: 30px;
+}
+.sign, .log{
+  background-color: #383838;
+  color: white;
+  width: 100px;
+  border-radius: 2px;
+}
+.buttom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #383838;
+  padding: 12px;
+  color: white;
+  width: 80px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+/* Page container */
+.page-container{
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: 	#383838;
+  box-shadow: inset -49px -62px 128px -6px rgba(0,0,0,0.75);
+}
+.page-container>.left-page{
+  padding-right: 140px;
+  padding-left: 40px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.page-container>.left-page>.write>.p1{
+  font-size: 2.1em;
+  padding-bottom: 12px;
+}
+.page-container>.left-page>.write>.p2{
+  font-size: 1.8em;
+  line-height: 45px;
+}
+.page-container>.left-page>.twobuttons{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 200px;
+  padding-top: 20px;
+}
+.page-container>.left-page>.twobuttons>.sign-up-free a{
+  text-decoration: none;
+  color: black;
+  background-color: mediumseagreen;
+  font-size: 26px;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.page-container>.left-page>.twobuttons>.learn-more a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 26px;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.page-container>.right-page {
+  padding-top: 15px;
+}
+.page-container>.right-page>.codepen-project{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.page-container>.right-page img{
+box-shadow: -30px -47px 129px -27px rgba(0,0,0,0.75);
+  height: 100%;
+  width: 550px;
+}
+/* Sfarsit pagina */
+.buttom-page{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: 	#505050;
+  color: white;
+  letter-spacing: 1px;
+  border: 0.001px solid white;
+}
+.buttom-page>.slogan>.bold{
+    font-size: 18px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: 900;
+}
+
+.buttom-page>.slogan{
+  padding: 9.5px;
+padding-left: 70px;
+padding-right: 70px;
+border-left: 0.001px solid white;
+}
